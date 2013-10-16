@@ -1,3 +1,37 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{ 
+background-color: gray;
+}
+#frame-top {
+  border: solid 1px;
+  height: 400px;
+  width: auto;
+}
+#card-frame {
+  border: solid 1px;
+  height: 400;
+  width: 700;
+  margin-left: auto;
+  margin-right: auto;
+}
+#top {
+  border: solid 1px;
+  height: 133px;
+}
+#middle {
+  border: solid 1px;
+  height: 133px;
+}
+#bottom {
+  border: solid 1px;
+  height: 129px;
+}
+#frame-bottom {
+  border: solid 1px;
+  height: 400px;
+  width: auto;
+}
+
