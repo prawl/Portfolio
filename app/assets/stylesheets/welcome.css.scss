@@ -6,12 +6,12 @@ body{
   background-color: white;
   font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'sans-serif';
 }
-#frame-top {
+.frame-top {
   border: solid 1px;
   height: 400px;
   width: auto;
 }
-#card-frame {
+.card-frame {
   border: solid 1px;
   height: 400;
   width: 700;
@@ -30,7 +30,7 @@ body{
   border: solid 1px;
   height: 129px;
 }
-#frame-bottom {
+.frame-bottom {
   border: solid 1px;
   height: 400px;
 }
