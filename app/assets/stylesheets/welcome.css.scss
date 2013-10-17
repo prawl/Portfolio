@@ -18,10 +18,6 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-#top {
-  border: solid 1px;
-  height: 133px;
-}
 .top-content {
   border: solid 1px;
   font-size: 25px;
@@ -30,17 +26,11 @@ body{
   height: 130px;
   width: 430px;
 }
-#middle {
-  border: solid 1px;
-  height: 133px;
-}
-#bottom {
+.inner-frame {
   border: solid 1px;
   height: 129px;
 }
 #frame-bottom {
   border: solid 1px;
   height: 400px;
-  width: auto;
 }
-
