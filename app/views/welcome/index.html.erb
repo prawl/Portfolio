@@ -7,10 +7,14 @@
           </div>
           <div class="top-content-right">
             <div class="icons">
-              <%= image_tag("fbook.png", alt: "") %>
-              <%= image_tag("twitter.png", alt: "") %>
-              <%= image_tag("git.png", alt: "") %>
-              <%= image_tag("skype.png", alt: "") %>
+                <%= link_to 'https://github.com/prawl' do %>
+                  <%= image_tag("git.png", alt: "") %>
+                <% end %>
+                <%= link_to 'https://twitter.com/PtrickRwlings' do %>
+                  <%= image_tag("twitter.png", alt: "") %>
+                <% end %>
+                <%= image_tag("fbook.png", alt: "") %>
+                <%= image_tag("skype.png", alt: "") %>
             </div>
           </div>
         </div>
