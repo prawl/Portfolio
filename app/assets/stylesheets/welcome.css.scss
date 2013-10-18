@@ -7,7 +7,6 @@ body{
   font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'sans-serif';
 }
 .frame-top {
-  border: solid 1px;
   height: 400px;
   width: auto;
 }
@@ -19,12 +18,17 @@ body{
   margin-right: auto;
 }
 .top-content {
-  border: solid 1px;
   font-size: 25px;
   margin-right: auto;
   margin-left: auto;
   height: 130px;
-  width: 430px;
+  width: 85%;
+  position: relative;
+}
+.name{
+  font-size: 35px;
+  bottom: 0px;
+  position: absolute;
 }
 .dotted-line {
   width: 85%;
@@ -37,7 +41,6 @@ body{
   width: 0px;
 }
 .inner-frame {
-  border: solid 1px;
   height: 129px;
 }
 .frame-bottom {
