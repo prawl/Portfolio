@@ -26,6 +26,16 @@ body{
   height: 130px;
   width: 430px;
 }
+.dotted-line {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background:url('dot.png');
+  background-repeat:repeat-x;
+}
+.dotted-line img {
+  width: 0px;
+}
 .inner-frame {
   border: solid 1px;
   height: 129px;
