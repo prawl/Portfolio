@@ -31,8 +31,14 @@ body{
 }
 .name{
   font-size: 45px;
+  bottom: 15px;
+  position: absolute;
+}
+.profession{
+  font-size: 15px;
   bottom: 0px;
   position: absolute;
+  padding-left: 3px;
 }
 .top-content-right {
   float: right;
