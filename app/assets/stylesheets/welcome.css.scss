@@ -74,17 +74,22 @@ body{
 .frame-bottom {
   height: 400px;
 }
-.gem-container{
+.gem-container {
   border: 1px solid;
   height: 75px;
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
 
-}.img-container{
+}.img-container {
   border: 1px solid;
-  height: 510px;
+  height: 500px;
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
+.img-container img {
+  width: 1000px;
+  height: 500px;
+}
+
