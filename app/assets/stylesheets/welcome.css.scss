@@ -101,21 +101,26 @@ body{
   position: relative;
  }
 .project-media {
-  border: 1px solid;
   position: absolute;
   right: 0px;
   width: 220px;
   height: 499px;
  }
+ .dotted-line-vertical {
+  position: absolute;
+  right: 220px;
+  border: 1px solid;
+  width: 0px;
+  margin-top: 25px;
+  height: 450px;
+ }
  .project-body {
   position: absolute;
   left: 0px;
   height: 400px;
-  border: 1px solid;
   width: 575px;
  }
 .project-gems {
-  border: 1px solid;
   position: absolute;
   bottom: 0px;
   height: 95px;
