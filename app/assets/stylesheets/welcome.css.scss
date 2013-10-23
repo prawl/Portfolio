@@ -89,3 +89,35 @@ body{
   width: 1000px;
   height: 500px;
 }
+.body-seperator {
+  border: 1px solid;
+}
+.project-container {
+  border: 1px solid;
+  height: 500px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+ }
+.project-media {
+  border: 1px solid;
+  position: absolute;
+  right: 0px;
+  width: 220px;
+  height: 499px;
+ }
+ .project-body {
+  position: absolute;
+  left: 0px;
+  height: 400px;
+  border: 1px solid;
+  width: 575px;
+ }
+.project-gems {
+  border: 1px solid;
+  position: absolute;
+  bottom: 0px;
+  height: 95px;
+  width: 575px;
+}
