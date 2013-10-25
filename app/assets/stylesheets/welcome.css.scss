@@ -90,10 +90,8 @@ body{
   height: 500px;
 }
 .body-seperator {
-  border: 1px solid;
 }
 .project-container {
-  border: 1px solid;
   height: 500px;
   width: 800px;
   margin-left: auto;
@@ -112,8 +110,9 @@ body{
   margin-right: 10px;
   height: 450px;
  }
-.project-img {
+.project-img img {
   height: 135px;
+  width: 300px;
   border: 1px solid;
   margin-bottom: 20px;
 }
@@ -132,20 +131,19 @@ body{
   width: 575px;
  }
  .project-body-container {
-  border: 1px solid;
   margin-top: 25px;
   margin-left: 20px;
   margin-right: 20px;
   height: 375px;
  }
  .project-body-container-title {
-   border: 1px solid;
    height: 80px;
+   font-size: 35px;
  }
  .project-body-container-desc {
-   border: 1px solid;
    height: 270px;
    margin-top: 20px;
+   font-size: 14px;
  }
 .project-gems {
   position: absolute;
@@ -154,54 +152,47 @@ body{
   width: 575px;
 }
 .project-gems-container {
-  border: solid 1px;
   position: relative;
   height: 70px;
   margin-left: 20px;
   margin-right: 20px;
 }
-.project-gems-img-1 {
-  border: 1px solid;
+.project-gems-img-1 img {
   position: absolute;
-  height: 60px;
+  height: 70px;
   width: 65px;
   margin-top: 3px;
   margin-left: 3px;
 }
-.project-gems-img-2 {
-  border: 1px solid;
+.project-gems-img-2 img {
   margin-left: 80px;
   position: absolute;
   height: 60px;
   width: 65px;
   margin-top: 3px;
 }
-.project-gems-img-3 {
-  border: 1px solid;
+.project-gems-img-3 img {
   margin-left: 160px;
   position: absolute;
   height: 60px;
   width: 65px;
   margin-top: 3px;
 }
-.project-gems-img-4 {
-  border: 1px solid;
+.project-gems-img-4 img {
   margin-left: 240px;
   position: absolute;
   height: 60px;
   width: 65px;
   margin-top: 3px;
 }
-.project-gems-img-5 {
-  border: 1px solid;
+.project-gems-img-5 img {
   margin-left: 320px;
   position: absolute;
   height: 60px;
   width: 65px;
   margin-top: 3px;
 }
-.project-gems-img-6 {
-  border: 1px solid;
+.project-gems-img-6 img {
   margin-left: 400px;
   position: absolute;
   height: 60px;

@@ -33,23 +33,29 @@
         data-cycle-fx="scrollHorz"
         data-cycle-pause-on-hover="true"
         data-cycle-speed="500" >
-        <%= image_tag("assetricity.jpg", alt: "") %>
-        <%= image_tag("mimosa.jpg", alt: "") %>
-        <%= image_tag("iom-og.jpg", alt: "") %>
-        <%= image_tag("gbm_1.jpg", alt: "") %>
+        <%# <%= image_tag("assetricity.jpg", alt: "") %>
+        <%# <%= image_tag("mimosa.jpg", alt: "") %>
+        <%# <%= image_tag("iom-og.jpg", alt: "") %>
+        <%= image_tag("gbm_3.jpg", alt: "") %>
       </div>
     </div>
 </div>
 <div class="body-seperator">
 </div>
+<div id="gbm"> </div>
 <div class="project-container">
   <div class="project-media">
     <div class="project-media-container">
       <div class="project-img">
+        <%# <%= image_tag("gbm_1.jpg", alt: "") %>
+          <%= link_to image_tag("gbm_1.jpg", :alt => "" ), :rel => "lightbox", :title => "Sweet baby jesus" %>
+
       </div>
       <div class="project-img">
+          <%= image_tag("gbm_2.jpg", alt: "") %>
       </div>
       <div class="project-img">
+          <%= image_tag("gbm_3.jpg", alt: "") %>
       </div>
     </div>
   </div>
@@ -58,20 +64,37 @@
   <div class="project-body">
     <div class="project-body-container">
       <div class="project-body-container-title">
+        <p> Gunbrella Man: Rise of a Hero
       </div>
       <div class="project-body-container-desc">
+        <p>
+        Crisis is averted and the entire community around this mid sized college rejoices. 
+The gunman on campus was simply a student holding an umbrella, mistaken for a rifle by security cameras. Everyone moves on with their day and never looks back.
+
+...Almost everyone.
+
+This is the true story of what happened that day; the story that was hidden from you. The story of a hero rising to protect us and then humbly disappearing into the shadows.
+        </p>
       </div>
     </div>
   </div>
   <div class="project-gems">
     <div class="project-gems-container">
       <div class="project-gems-img-1">
+        <%= link_to 'http://unity3d.com/' do %>
+          <%= image_tag("unity.png", alt: "") %>
+        <% end %>
       </div>
       <div class="project-gems-img-2">
+          <%= image_tag("js.png", alt: "") %>
       </div>
       <div class="project-gems-img-3">
+        <%= image_tag("cs.png", alt: "") %>
       </div>
       <div class="project-gems-img-4">
+        <%= link_to 'http://sourceforge.net/projects/gunbrella/' do %>
+          <%= image_tag("dl.png", alt: "") %>
+        <% end %>
       </div>
       <div class="project-gems-img-5">
       </div>
