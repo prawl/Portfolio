@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body,
 input,
 textarea {
-  color: #cccccc;
+  color: black;
   font-size: 18px;
   font-family: "Karla", "lucida grande", sans-serif;
 }
