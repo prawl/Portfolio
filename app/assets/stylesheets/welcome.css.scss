@@ -91,6 +91,11 @@ body {
   height: 500px;
 }
 .body-seperator {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background:url('dot.png');
+  background-repeat:repeat-x;
 }
 .project-container {
   height: 500px;
