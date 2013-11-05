@@ -1,5 +1,8 @@
 Portfolio::Application.routes.draw do
   root to: 'welcome#index'
+  get "treasure/index"
+  match "treasure/login" => 'treasure#login'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
