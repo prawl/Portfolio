@@ -6,11 +6,30 @@ body {
   background-color: white;
 }
 
-.frame {
-  height: 500px;
-  width: 1000px;
-  border: 1px solid;
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
-.box {
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+.inner img {
+  width: 200px;
+  height: 200px;
+}
+.bottom {
+  padding-left: 35px;
+}
 
+h1 {
+ font-size: 12px;
+ color: white
 }

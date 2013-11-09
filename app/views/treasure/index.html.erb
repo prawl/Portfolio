@@ -1,14 +1,18 @@
-<div class= "frame">
-  <div class="box">
-    <h1>Find the Treasure!</h1>
-    <%= form_tag 'login' do %>
-      <p>Password:
-      </br>
-      <%= password_field_tag :password %></p> 
-      <%= submit_tag("Log In") %>
-      </br>
-      <%= flash[:error] %>
-      <%= hidden_field :answer, "secret" %>
-    <% end %>
+<%= stylesheet_link_tag 'treasure' %>
+<div class= "outer">
+  <div class="middle">
+    <div class="inner">
+      <%= image_tag("tclosed.png", alt: "") %>
+      <div class='bottom'>
+        <p> What's the password? </p>
+        <%= form_tag 'login' do %>
+          <%= password_field_tag :password %></p> 
+          <%= submit_tag("Log In") %>
+          </br>
+          <h1> The password is secret </h1>
+          <%= flash[:error] %>
+        <% end %>
+      </div>
+    </div>
   </div>
 </div>
