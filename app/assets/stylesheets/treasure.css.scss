@@ -2,10 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
+body, textarea {
   background-color: white;
+  margin: 0px;
+  font-size: 16px;
 }
-
+input {
+  width: 175px;
+  color: black;
+}
 .outer {
   display: table;
   position: absolute;
@@ -26,7 +31,6 @@ body {
   height: 200px;
 }
 .bottom {
-  padding-left: 35px;
 }
 
 h1 {
