@@ -1,3 +1,29 @@
 // Place all the styles related to the index controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+span {
+  font-size: 18px;
+}
+span a {
+ color: #00bfa8;
+ text-decoration: underline;
+}
+span a:visited {
+ color: #551a8b;
+}
+.header {
+  border-bottom: 1px solid #5f5f5f;
+  padding: 30px 0 30px 0;
+  margin: 0 50px;
+  text-align: center;
+  font-size: 45px;
+  line-height: 1.6;
+}
+.list-container {
+  padding: 30px 0 30px 0;
+  margin: 0 50px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+}

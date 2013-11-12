@@ -13,6 +13,7 @@
  *= require_self
  *= require lightbox
  *= require screen
+ *= require index
  *= require treasure
  *= require welcome
  */
