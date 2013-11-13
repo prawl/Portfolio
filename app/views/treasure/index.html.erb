@@ -1,16 +1,18 @@
-<div class= "outer">
-  <div class="middle">
-    <div class="inner">
-      <%= image_tag("lamp.png", alt: "") %>
-      <div class='bottom'>
-        <p> Ask and you shall receive! </p>
-        <%= form_tag 'login' do %>
-          <%= password_field_tag :password %></p> 
-          <%= submit_tag("make a wish") %>
-          </br>
-          <h1> If it wasn't already obvious, the password is secret </h1>
-          <%= flash[:error] %>
-        <% end %>
+<div class="content-header">
+  <div class= "outer">
+    <div class="middle">
+      <div class="inner">
+        <%= image_tag("lamp.png", alt: "") %>
+        <div class='bottom'>
+          <p> Ask and you shall receive! </p>
+          <%= form_tag 'login' do %>
+            <%= password_field_tag :password %></p>
+            <%= submit_tag("make a wish") %>
+            </br>
+            <h1> If it wasn't already obvious, the password is secret </h1>
+            <%= flash[:error] %>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>
