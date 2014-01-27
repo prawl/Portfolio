@@ -3,17 +3,110 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
+  border: 1px solid;
   background-color: white;
   font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'sans-serif';
   color: black
 }
-.frame-top {
+.avatar-frame {
   height: 130px;
   width: auto;
 }
-.card-frame {
-  height: 400;
-  width: 700;
+.avatar-content {
+  border: 1px solid;
+  height: 130px;
+  width: 150px;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name-frame {
+  height: 25px;
+  width: auto;
+  margin: 25px 0px 35px 0px;
+}
+.name-content {
+  text-align: center;
+  height: 25px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name-span {
+  font-size: 14px;
+  color: rgb(156, 155, 155);
+  display: inline-block;
+}
+.link-frame {
+  height: 25px;
+  width: auto;
+  margin-top: 15px;
+  position: relative;
+}
+.link-content {
+  border-bottom: 1px solid;
+  color: rgb(156, 155, 155);
+  height: 25px;
+  width: 80%;
+  text-align: center;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link-item {
+  border: none;
+  margin: 0px 25px 0px 25px;
+  display: inline-block;
+}
+.link-item a {
+  color: #2E00BF;
+}
+.border-frame {
+  border: 1px solid;
+  height: 20px;
+  width: auto;
+}
+.border-content {
+  border: 1px solid;
+  height: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.projects-frame {
+  margin-top: 10px;
+  height: 335px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.projects-content {
+  height: 300px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.projects-pane {
+  margin: 16px;
+  width: 30%;
+  height: 300px;
+  display: inline-block;
+  border: 1px solid;
+  float: left;
+}
+.projects-pane img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.bottom-frame {
+  border: 1px solid;
+  height: 50px;
+  width: auto;
+}
+.bottom-content {
+  border: 1px solid;
+  height: 50px;
+  width: 250px;
   margin-left: auto;
   margin-right: auto;
 }
