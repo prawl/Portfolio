@@ -1,2 +1,67 @@
-<h1>Gbm#index</h1>
-<p>Find me in app/views/gbm/index.html.erb</p>
+<div id="gbm"> </div>
+<div class="project-container">
+  <div class="project-media">
+    <div class="project-media-container">
+      <div class="project-img">
+          <a href="img/gbm_1.jpg" data-lightbox="gbm" title="Alpha Development Screen Shot">
+            <%= image_tag("gbm_1.jpg", alt: "Gunbrella Man Image 1") %>
+          </a>
+      </div>
+      <div class="project-img">
+          <a href="img/gbm_2.jpg" data-lightbox="gbm" title="Alpha Development Screen Shot">
+            <%= image_tag("gbm_2.jpg", alt: "Gunbrella Man Image 2") %>
+          </a>
+      </div>
+      <div class="project-img">
+        <a href="img/gbm_4.jpg" data-lightbox="gbm" title="Loading Screen">
+          <%= image_tag("gbm_4.jpg", alt: "Gunbrella Man Image 3") %>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="project-body">
+    <div class="project-body-container">
+      <div class="project-body-container-title">
+        <p> Gunbrella Man: Rise of a Hero
+      </div>
+      <div class="project-body-container-desc">
+        <p>
+          Gunbrella Man: Rise of a Hero is a first person shooter developed entirely in Unity.
+          I worked on this capstone project during my final software engineering course at East Carolina University.
+          With the help of four programmers, two artist, a sound engineer, and a singer/song writer, the project was
+          completed in roughly four months.  My responsiblities as team leader on this project mostly covered documentation, programming,
+          collaboration between team members, and having fun.  This was the first game I've ever worked on in a team and I
+          am very proud of the all the sleepless nights and hardwork we put into it.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="project-gems">
+    <div class="project-gems-container">
+      <div class="project-gems-img-1">
+        <%= link_to 'http://unity3d.com/' do %>
+          <%= image_tag("unity.png", alt: "") %>
+        <% end %>
+      </div>
+      <div class="project-gems-img-2">
+        <%= link_to 'http://en.wikipedia.org/wiki/JavaScript' do %>
+          <%= image_tag("js.png", alt: "") %>
+        <% end %>
+      </div>
+      <div class="project-gems-img-3">
+        <%= link_to 'http://en.wikipedia.org/wiki/C_Sharp_(programming_language)' do %>
+          <%= image_tag("cs.png", alt: "") %>
+        <% end %>
+      </div>
+      <div class="project-gems-img-4">
+        <%= link_to 'http://sourceforge.net/projects/gunbrella/' do %>
+          <%= image_tag("dl.png", alt: "") %>
+        <% end %>
+      </div>
+      <div class="project-gems-img-5">
+      </div>
+      <div class="project-gems-img-6">
+      </div>
+    </div>
+  </div>
+</div>
