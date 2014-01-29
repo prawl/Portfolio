@@ -1,0 +1,2 @@
+module GbmHelper
+end

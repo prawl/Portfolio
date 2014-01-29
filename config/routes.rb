@@ -1,9 +1,10 @@
 Portfolio::Application.routes.draw do
-  get "index/list"
-  get "index/index"
-  get "treasure/index"
-  match "treasure/login" => 'treasure#login'
   root to: 'welcome#index'
+  resources :assetricity
+  resources :welcome
+  resources :treasure
+  resources :gbm
+  resources :jenga
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
