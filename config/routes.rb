@@ -5,6 +5,8 @@ Portfolio::Application.routes.draw do
   resources :treasure
   resources :gbm
   resources :jenga
+  resources :resume
+  resources :contact
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
