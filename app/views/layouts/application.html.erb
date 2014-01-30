@@ -21,7 +21,7 @@
     <div class="link-content" >
       <ul>
         <li class="link-item">
-          <a href="#">Portfolio</a>
+          <a href="/">Portfolio</a>
         </li>
         <li class="link-item">
           <a href="https://github.com/prawl">Github</a>
@@ -36,5 +36,15 @@
     </div>
   </div>
   <%= yield %>
+  <div class="bottom-frame">
+    <div class="bottom-content" >
+      <%= link_to 'https://twitter.com/PtrickRwlings' do %>
+        <img src="img/twitterb.png">
+      <% end %>
+      <%= link_to 'mailto:ptyrawlings@gmail.com' do %>
+        <img src="img/mailb.png">
+      <% end %>
+    </div>
+  </div>
 </body>
 </html>
