@@ -316,7 +316,6 @@ body {
 .info {
   padding-top: 50px;
   text-align: center;
-  font-family: "Droid Serif";
 }
 .title {
   font-size: 30px;
@@ -328,5 +327,15 @@ body {
 .info {
   font-size: 16px;
   padding-top: 10px;
+  padding-bottom: 25px;
+}
+.contact {
+  text-align: center;
+}
+.contact a {
+  color: #2E00BF;
+  text-align: center;
+}
+.gmap{
   padding-bottom: 25px;
 }
