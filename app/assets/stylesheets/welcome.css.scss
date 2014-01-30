@@ -349,6 +349,7 @@ body {
   padding-bottom: 25px;
 }
 .bottom-nav{
+  position: relative;
   text-align: right;
   width: 80%;
   margin-left: auto;
@@ -358,6 +359,7 @@ body {
   text-align: right;
 }
 .left-pane{
+  position: absolute;
   text-align: left;
   width: 80%;
 }
