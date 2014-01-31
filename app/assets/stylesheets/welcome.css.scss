@@ -325,6 +325,7 @@ body {
 .info {
   padding-top: 50px;
   text-align: center;
+  font-size: 17px;
 }
 .title {
   font-size: 30px;
@@ -345,22 +346,29 @@ body {
   color: #2E00BF;
   text-align: center;
 }
-.gmap{
+.gmap {
   padding-bottom: 25px;
 }
-.bottom-nav{
+.bottom-nav {
   position: relative;
   text-align: right;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
-.right-pane{
+.right-pane {
   text-align: right;
 }
-.left-pane{
+.left-pane {
   position: absolute;
   text-align: left;
   width: 80%;
 }
+.seperator {
+  margin-left: auto;
+  margin-right: auto;
 
+  width: 80%;
+  border: 1px solid;
+  color: rgb(156, 155, 155);
+}
