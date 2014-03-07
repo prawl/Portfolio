@@ -12,12 +12,13 @@ body {
   width: auto;
 }
 .avatar-content {
-  border: 1px solid;
   height: 130px;
   width: 150px;
-  border: 1px solid;
   margin-left: auto;
   margin-right: auto;
+}
+.avatar-content img {
+  width: 145px;
 }
 .name-frame {
   height: 25px;
