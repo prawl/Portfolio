@@ -8,7 +8,8 @@ gem 'rails', '3.2.13'
 
 gem 'pg', require: false
 gem 'rails_12factor', group: :production
-
+gem 'coffee-script'
+gem 'sass'
 
 # Gems used only for assets and not required
 # in production environments by default.
