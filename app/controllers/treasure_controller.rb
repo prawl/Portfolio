@@ -1,5 +1,4 @@
 class TreasureController < ApplicationController
-
   def login
     input = params[:password]
     if input == 'secret'
