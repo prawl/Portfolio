@@ -4,6 +4,7 @@ gem 'ruby'
 gem 'rails'
 gem 'activesupport'
 gem 'pg', require: false
+gem 'actionpack-page_caching'
 gem 'rails_12factor', group: :production
 gem 'coffee-script'
 gem 'sass'

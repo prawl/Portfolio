@@ -1,5 +1,8 @@
 Portfolio::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
+  #
+  # actionpack-page_caching
+  config.action_controller.page_cache_directory = "#{Rails.root.to_s}/public/deploy"
 
   config.eager_load = false
   # In the development environment your application's code is reloaded on
