@@ -1,0 +1,70 @@
+<div id='uncqi'> </div>
+<div class='project-container'>
+  <div class='project-media'>
+    <div class='project-media-container'>
+      <div class='project-img'>
+        <a href='assets/uncqi.png' data-lightbox='uncqi' title='UNCQI Image 1'>
+          <%= image_tag 'uncqi.png', alt: 'Image 1' %>
+        </a>
+      </div>
+      <div class='project-img'>
+        <a href='assets/uncqi_2.png' data-lightbox='uncqi' title='UNCQI Image 2'>
+          <%= image_tag 'uncqi.png', alt: 'Image 2' %>
+        </a>
+      </div>
+      <div class='project-img'>
+        <a href='assets/uncqi_3.png' data-lightbox='uncqi' title='UNCQI Image 3'>
+          <%= image_tag 'uncqi_3.png', alt: 'Image 3' %>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class='project-body'>
+    <div class='project-body-container'>
+      <div class='project-body-container-title'>
+        <p> 
+      </div>
+      <div class='project-body-container-desc'>
+        The University of North Carolina Quality Improvement project is a data-driven,
+        analytic, process simulator for heath students.  The UNCQI projects goal is
+        to provide graduate students the ability to analyize real-time decision
+        making with instantanous feedback.  My responsibilities on this project includes:
+        Building a inclusive log-in system for both students and professor accounts.
+        Constructing data-reports for instructors to review and assess.
+        <p>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class='project-gems'>
+    <div class='project-gems-container'>
+      <div class='project-gems-img-1'>
+        <%= link_to 'https://www.ruby-lang.org/en/' do %>
+          <%= image_tag 'ruby.png', alt: 'ruby image' %>
+        <% end %>
+      </div>
+      <div class='project-gems-img-2'>
+        <%= link_to 'http://rubyonrails.org/' do %>
+          <%= image_tag 'rails.png', alt: 'rails image' %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='bottom-nav'>
+  <div class='left-pane'>
+    <%= link_to '/' do %>
+      Back
+    <% end %>
+  </div>
+  <div class='right-pane'>
+    <%= link_to weaveup_index_path do %>
+      Prev
+    <% end %>
+      |
+
+    <%= link_to assetricity_index_path do %>
+      Next
+    <% end %>
+  </div>
+</div>
