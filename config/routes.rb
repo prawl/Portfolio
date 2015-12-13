@@ -1,12 +1,12 @@
 Portfolio::Application.routes.draw do
   root to: 'welcome#index'
-  resources :assetricity
-  resources :welcome
-  resources :treasure
-  resources :gbm
-  resources :jenga
-  resources :resume
-  resources :contact
+  resources :assetricity, only: [:index]
+  resources :welcome, only: [:index]
+  resources :treasure, only: [:index]
+  resources :gbm, only: [:index]
+  resources :jenga, only: [:index]
+  resources :resume, only: [:index]
+  resources :contact, only: [:index]
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
