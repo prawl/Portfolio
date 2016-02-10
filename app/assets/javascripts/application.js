@@ -11,5 +11,12 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require magnific-popup
 //= require jquery_ujs
 //= require_tree .
+//
+//
+$(document).ready(function() {
+  alert("ehllo");
+//  $('.image-link').magnificPopup({type:'image'});
+});
