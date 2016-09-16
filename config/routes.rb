@@ -5,6 +5,7 @@ Portfolio::Application.routes.draw do
   resources :gbm, only: [:index]
   resources :jenga, only: [:index]
   resources :treasure, only: [:index]
+  resources :prepped, only: [:index]
   resources :resume, only: [:index]
   resources :weaveup, only: [:index]
   resources :welcome, only: [:index]
