@@ -1,0 +1,70 @@
+<div id='prepped'> </div>
+<div class='project-container'>
+  <div class='project-media'>
+    <div class='project-media-container'>
+      <div class='project-img'>
+        <a href='assets/prepped_1.png' data-lightbox='prepped' title='Prepped'>
+          <%= image_tag 'prepped_1.png', alt: 'Weaveup Image 1', style: "height: 500px;" %>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class='project-body'>
+    <div class='project-body-container'>
+      <div class='project-body-container-title'>
+        <p> Prepped
+      </div>
+      <div class='project-body-container-desc'>
+        <p>
+          Prepped is a mobile application with the goal of helping
+          those diagnosed with Cancer and COPD know the right
+          questions to ask their doctor.  Being able to ask
+          the right questions is made possible by sharing
+          the most popular, and docotor recommended questions
+          between users so they are prepped for their next
+          doctor appointment.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class='project-gems'>
+    <div class='project-gems-container'>
+      <div class='project-gems-img-1'>
+        <%= link_to 'https://www.ruby-lang.org/en/' do %>
+          <%= image_tag 'ruby.png', alt: 'ruby image' %>
+        <% end %>
+      </div>
+      <div class='project-gems-img-2'>
+        <%= link_to 'http://rubyonrails.org/' do %>
+          <%= image_tag 'rails.png', alt: 'rails image' %>
+        <% end %>
+      </div>
+      <div class='project-gems-img-3'>
+        <%= link_to 'https://facebook.github.io/react-native/' do %>
+          <%= image_tag 'react.svg', alt: 'react image' %>
+        <% end %>
+      </div>
+      <div class='project-gems-img-4'>
+      </div>
+      <div class='project-gems-img-5'>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='bottom-nav'>
+  <div class='left-pane'>
+    <%= link_to '/' do %>
+      Back
+    <% end %>
+  </div>
+  <div class='right-pane'>
+    <%= link_to jenga_index_path do %>
+      Prev
+    <% end %>
+      |
+
+    <%= link_to weaveup_index_path do %>
+      Next
+    <% end %>
+  </div>
+</div>
