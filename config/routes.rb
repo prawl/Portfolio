@@ -1,5 +1,6 @@
 Portfolio::Application.routes.draw do
   root to: 'welcome#index'
+  resources :zozi, only: [:index]
   resources :assetricity, only: [:index]
   resources :contact, only: [:index]
   resources :gbm, only: [:index]

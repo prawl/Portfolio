@@ -1,0 +1,62 @@
+<div id='zozi'> </div>
+<div class='project-container'>
+  <div class='project-media'>
+    <div class='project-media-container'>
+      <div class='project-img'>
+        <a href='assets/zozi_1.png' data-lightbox='zozi' title='Zozi Products Page'>
+          <%= image_tag 'zozi_1.png', alt: 'Zozi Image 1' %>
+        </a>
+      </div>
+      <div class='project-img'>
+        <a href='assets/zozi_2.png' data-lightbox='zozi' title='Zozi Embedded Page'>
+          <%= image_tag 'zozi_2.png', alt: 'Zozi Image 2' %>
+        </a>
+      </div>
+      <div class='project-img'>
+        <a href='assets/zozi_3.png' data-lightbox='zozi' title='Zozi Checkout Page'>
+          <%= image_tag 'zozi_3.png', alt: 'Zozi Image 3' %>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class='project-body'>
+    <div class='project-body-container'>
+      <div class='project-body-container-title'>
+        <p> Zozi
+      </div>
+      <div class='project-body-container-desc'>
+        <p>
+          Zozi, a leader in service base, e-commerece, has transformed the way we purchase experiences via the internet.
+          Being able to integrate into almost any platform seamlessly and providing a one stop solution to all e-commerece
+          merchants, Zozi builds  the best online booking tools in the business.  As a developer on ZOZI, my responsibilities
+          included working on the e-commerced based booking tools in the angular framework.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class='project-gems'>
+    <div class='project-gems-container'>
+      <div class='project-gems-img-1'>
+        <%= link_to 'https://en.wikipedia.org/wiki/AngularJS' do %>
+          <%= image_tag 'angular.png', alt: 'js image' %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='bottom-nav'>
+  <div class='left-pane'>
+    <%= link_to '/' do %>
+      Back
+    <% end %>
+  </div>
+  <div class='right-pane'>
+    <%= link_to jenga_index_path do %>
+      Prev
+    <% end %>
+      |
+    <%= link_to prepped_index_path do %>
+      Next
+    <% end %>
+  </div>
+</div>
