@@ -1,0 +1,73 @@
+<div id='stilio'> </div>
+<div class='project-container'>
+  <div class='project-media'>
+    <div class='project-media-container'>
+      <div class='project-img'>
+        <a href='assets/stilio_1.png' data-lightbox='stilio' title='Stilio Products Page'>
+          <%= image_tag 'stilio_1.png', alt: 'Stilio Image 1' %>
+        </a>
+      </div>
+      <div class='project-img'>
+        <a href='assets/stilio_2.png' data-lightbox='stilio' title='stilio Embedded Page'>
+          <%= image_tag 'stilio_2.png', alt: 'stilio Image 2' %>
+        </a>
+      </div>
+      <div class='project-img'>
+        <a href='assets/stilio_3.png' data-lightbox='stilio' title='stilio Checkout Page'>
+          <%= image_tag 'stilio_3.png', alt: 'stilio Image 3' %>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class='project-body'>
+    <div class='project-body-container'>
+      <div class='project-body-container-title'>
+        <p> Stilio
+      </div>
+      <div class='project-body-container-desc'>
+        <p>
+          Connecting real estate professionals with photographers, anywhere and everywhere.
+          Stilio was created so you can customize your perfect real estate photography experience all on a platform
+          that seamlessly facilitates transactions. I primarily worked with react framework with a focus on ruby of rails
+          for the backend.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class='project-gems'>
+    <div class='project-gems-container'>
+      <div class='project-gems-img-1'>
+        <%= link_to 'https://en.wikipedia.org/wiki/React_(JavaScript_library)' do %>
+          <%= image_tag 'react.png', alt: 'js image', style: "width: 70px" %>
+        <% end %>
+      </div>
+      <div class='project-gems-img-2'>
+        <%= link_to 'https://www.ruby-lang.org/en/' do %>
+          <%= image_tag 'ruby.png', alt: 'ruby image' %>
+        <% end %>
+      </div>
+      <div class='project-gems-img-3'>
+        <%= link_to 'http://rubyonrails.org/' do %>
+          <%= image_tag 'rails.png', alt: 'rails image' %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='bottom-nav'>
+  <div class='left-pane'>
+    <%= link_to '/' do %>
+      Back
+    <% end %>
+  </div>
+  <div class='right-pane'>
+    <%= link_to jenga_index_path do %>
+      Prev
+    <% end %>
+      |
+    <%= link_to zozi_index_path do %>
+      Next
+    <% end %>
+  </div>
+</div>

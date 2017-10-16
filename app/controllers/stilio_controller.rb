@@ -1,0 +1,2 @@
+class StilioController < ApplicationController
+end
